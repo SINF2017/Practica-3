@@ -1,0 +1,10 @@
+
+DELIMITER //
+CREATE TRIGGER check_edad_dir_bi BEFORE INSERT ON Directores FOR EACH ROW  
+BEGIN  
+
+
+
+END; //
+
+DELIMITER ;
